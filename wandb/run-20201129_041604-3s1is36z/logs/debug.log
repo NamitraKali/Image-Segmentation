@@ -1,0 +1,62 @@
+2020-11-29 04:16:04,096 INFO    MainThread:96941 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-29 04:16:04,097 INFO    MainThread:96941 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-29 04:16:04,097 INFO    MainThread:96941 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-29 04:16:04,097 INFO    MainThread:96941 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdcdfb70700>
+2020-11-29 04:16:04,097 INFO    MainThread:96941 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_041604-3s1is36z/logs/debug.log
+2020-11-29 04:16:04,097 INFO    MainThread:96941 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_041604-3s1is36z/logs/debug-internal.log
+2020-11-29 04:16:04,734 INFO    MainThread:96941 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-29 04:16:04,735 INFO    MainThread:96941 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-29 04:16:04,735 INFO    MainThread:96941 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-29 04:16:04,735 INFO    MainThread:96941 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-29 04:16:07,185 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:07,190 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:32,015 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:32,018 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:32,144 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:32,150 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:32,151 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:32,153 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:32,379 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:32,382 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:33,699 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:33,705 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:33,708 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:16:33,713 INFO    MainThread:96941 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 04:16:33,715 INFO    MainThread:96941 [wandb_watch.py:watch():35] Watching
+2020-11-29 04:16:35,084 INFO    MainThread:96941 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 04:18:06,492 INFO    MainThread:96941 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-29 04:18:06,492 INFO    MainThread:96941 [wandb_run.py:_restore():1160] restore
+2020-11-29 04:18:06,496 INFO    MainThread:96941 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "5a548ba1948c4297b63dcc6c68366050"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 10064
+      total_bytes: 10064
+    }
+  }
+}
+
+2020-11-29 04:18:08,499 INFO    MainThread:96941 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "d6c67caf66444800ad1c789ce754895b"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 13540
+      total_bytes: 13540
+    }
+  }
+}
+
+2020-11-29 04:18:09,571 INFO    MainThread:96941 [wandb_run.py:_show_summary():1450] rendering summary
+2020-11-29 04:18:09,572 INFO    MainThread:96941 [wandb_run.py:_show_files():1517] logging synced files
+2020-11-29 04:18:09,657 INFO    MainThread:96941 [internal.py:handle_exit():138] Internal process exited

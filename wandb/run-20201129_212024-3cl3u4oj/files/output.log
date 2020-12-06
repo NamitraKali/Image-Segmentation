@@ -1,0 +1,52 @@
+cuda
+2975 2975
+Traceback (most recent call last):
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/queues.py", line 245, in _feed
+    send_bytes(obj)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/queues.py", line 245, in _feed
+    send_bytes(obj)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/queues.py", line 245, in _feed
+    send_bytes(obj)
+BrokenPipeError: [Errno 32] Broken pipe
+Selected optimization level O0:  Pure FP32 training.
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+Defaults for this optimization level are:  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+enabled                : True  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]

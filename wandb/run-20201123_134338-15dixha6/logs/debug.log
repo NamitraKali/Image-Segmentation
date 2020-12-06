@@ -1,0 +1,71 @@
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f862ad650d0>
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_134338-15dixha6/logs/debug.log
+2020-11-23 13:43:38,771 INFO    MainThread:33871 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_134338-15dixha6/logs/debug-internal.log
+2020-11-23 13:43:39,365 INFO    MainThread:33871 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-23 13:43:39,366 INFO    MainThread:33871 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-23 13:43:39,366 INFO    MainThread:33871 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-23 13:43:39,366 INFO    MainThread:33871 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-23 13:43:41,883 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:43:41,888 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:10,598 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:10,602 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:10,726 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:10,733 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:10,734 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:10,737 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:10,955 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:10,958 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:10,986 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:10,989 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:11,217 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:11,220 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:12,537 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:44:12,544 INFO    MainThread:33871 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-23 13:44:13,572 INFO    MainThread:33871 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 13:45:03,600 INFO    MainThread:33871 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-23 13:45:03,600 INFO    MainThread:33871 [wandb_run.py:_restore():1160] restore
+2020-11-23 13:45:03,603 INFO    MainThread:33871 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "c09719cf69b247cda3d6f4185985915c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 621
+      total_bytes: 621
+    }
+  }
+}
+
+2020-11-23 13:45:05,607 INFO    MainThread:33871 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "a3a93ab21fbb4f7894f0cd3f9a020a25"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 621
+      total_bytes: 4462
+    }
+  }
+}
+
+2020-11-23 13:45:07,611 INFO    MainThread:33871 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "116a7e42f9c54ce69fe2f74aa4019cb5"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 621
+      total_bytes: 4462
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+cuda
+2975 2975
+(4, 256, 256, 1)
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/apex/amp/wrap.py:101: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at  /opt/conda/conda-bld/pytorch_1603729096996/work/torch/csrc/utils/python_arg_parser.cpp:882.)
+  return orig_fn(arg0, *args, **kwargs)
+Epoch: 0:   0%|          | 1/595 [00:02<25:43,  2.60s/it]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32768.0
+Epoch: 0:   0%|          | 2/595 [00:02<19:05,  1.93s/it]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16384.0
+Epoch: 0:   1%|          | 3/595 [00:03<14:20,  1.45s/it]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+Epoch: 0:   1%|          | 4/595 [00:03<11:04,  1.12s/it]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+Epoch: 0:   1%|          | 5/595 [00:04<08:47,  1.12it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2048.0
+Epoch: 0:   1%|          | 6/595 [00:04<07:09,  1.37it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1024.0
+Epoch: 0:   1%|          | 7/595 [00:04<06:01,  1.63it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 512.0
+Epoch: 0:   1%|▏         | 8/595 [00:05<05:14,  1.86it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 256.0
+Epoch: 0:   2%|▏         | 9/595 [00:05<04:52,  2.00it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 128.0
+Epoch: 0:   2%|▏         | 10/595 [00:05<04:26,  2.19it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 64.0
+Epoch: 0:   2%|▏         | 11/595 [00:06<04:07,  2.36it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32.0
+Epoch: 0:   2%|▏         | 12/595 [00:06<03:53,  2.50it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16.0
+Epoch: 0:   2%|▏         | 13/595 [00:06<03:43,  2.61it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8.0
+Epoch: 0:   2%|▏         | 14/595 [00:07<03:36,  2.68it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4.0
+Epoch: 0:   3%|▎         | 15/595 [00:07<03:31,  2.74it/s]Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2.0
+Epoch: 0:   3%|▎         | 16/595 [00:07<03:28,  2.78it/s]Epoch: 0:   3%|▎         | 16/595 [00:08<04:51,  1.99it/s]

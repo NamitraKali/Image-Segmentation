@@ -1,0 +1,78 @@
+cuda
+2975 2975
+(4, 256, 256, 1)
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]Epoch: 0:   0%|          | 0/595 [00:01<?, ?it/s]
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f4f67a58820>
+Traceback (most recent call last):
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1203, in __del__
+    self._shutdown_workers()
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1177, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt: 
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]Epoch: 0:   0%|          | 0/595 [00:00<?, ?it/s]

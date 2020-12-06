@@ -1,0 +1,43 @@
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f47658ff790>
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/logs/debug.log
+2020-11-29 21:01:57,316 INFO    MainThread:3612 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/logs/debug-internal.log
+2020-11-29 21:01:57,317 INFO    MainThread:3612 [wandb_run.py:finish():912] finishing run namkali/traffic-segmentation/15eerupk
+2020-11-29 21:01:57,317 INFO    MainThread:3612 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-29 21:01:57,317 INFO    MainThread:3612 [wandb_run.py:_restore():1160] restore
+2020-11-29 21:01:57,318 INFO    MainThread:3612 [wandb_run.py:_restore():1160] restore
+2020-11-29 21:02:02,489 ERROR   MainThread:3612 [wandb_run.py:_atexit_cleanup():1206] Problem finishing run
+Traceback (most recent call last):
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1196, in _atexit_cleanup
+    self._on_finish()
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1344, in _on_finish
+    self._backend.interface.publish_exit(self._exit_code)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 585, in publish_exit
+    self._publish(rec)
+  File "/home/namitrak/anaconda3/envs/rl_gan/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 433, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2020-11-29 21:02:03,413 INFO    MainThread:3612 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-29 21:02:03,414 INFO    MainThread:3612 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-29 21:02:03,414 INFO    MainThread:3612 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-29 21:02:03,414 INFO    MainThread:3612 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-29 21:02:05,886 INFO    MainThread:3612 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 21:02:13,072 INFO    MainThread:3612 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 21:02:13,116 INFO    MainThread:3612 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 21:02:15,386 INFO    MainThread:3612 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 21:02:15,391 INFO    MainThread:3612 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 21:02:16,691 INFO    MainThread:3612 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 21:02:16,692 INFO    MainThread:3612 [wandb_watch.py:watch():35] Watching
+2020-11-29 21:07:46,095 INFO    MainThread:3612 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-29 21:07:58,597 INFO    MainThread:3612 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f47658ff790>
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210758-tmvbghnf/logs/debug.log
+2020-11-29 21:07:58,602 INFO    MainThread:3612 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210758-tmvbghnf/logs/debug-internal.log
+2020-11-29 21:07:58,603 INFO    MainThread:3612 [wandb_run.py:finish():912] finishing run namkali/traffic-segmentation/25d6vwgk
+2020-11-29 21:07:58,603 INFO    MainThread:3612 [wandb_init.py:_jupyter_teardown():234] cleaning up jupyter logic
+2020-11-29 21:07:58,603 INFO    MainThread:3612 [jupyter.py:save_history():208] not saving jupyter history

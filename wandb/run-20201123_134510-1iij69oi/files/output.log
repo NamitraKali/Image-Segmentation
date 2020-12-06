@@ -1,0 +1,32 @@
+cuda
+2975 2975
+(4, 256, 256, 1)
+torch.Size([3, 256, 256]) torch.Size([1, 256, 256])
+torch.Size([3, 256, 256]) torch.Size([1, 256, 256])
+torch.Size([3, 256, 256]) torch.Size([1, 256, 256])
+torch.Size([3, 256, 256]) torch.Size([1, 256, 256])
+0 torch.Size([5, 3, 256, 256]) torch.Size([5, 1, 256, 256])
+1 torch.Size([5, 3, 256, 256]) torch.Size([5, 1, 256, 256])
+2 torch.Size([5, 3, 256, 256]) torch.Size([5, 1, 256, 256])
+3 torch.Size([5, 3, 256, 256]) torch.Size([5, 1, 256, 256])
+4 torch.Size([5, 3, 256, 256]) torch.Size([5, 1, 256, 256])
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Epoch: 0:   0%|          | 0/2975 [00:00<?, ?it/s]Epoch: 0:   0%|          | 0/2975 [00:00<?, ?it/s]

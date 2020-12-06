@@ -1,0 +1,61 @@
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fb340720850>
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201126_094116-2lb43zd3/logs/debug.log
+2020-11-26 09:41:16,541 INFO    MainThread:164074 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201126_094116-2lb43zd3/logs/debug-internal.log
+2020-11-26 09:41:17,133 INFO    MainThread:164074 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-26 09:41:17,133 INFO    MainThread:164074 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-26 09:41:17,134 INFO    MainThread:164074 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-26 09:41:17,134 INFO    MainThread:164074 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-26 09:41:19,739 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:19,743 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:43,969 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:43,972 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:44,094 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:44,100 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:44,101 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:44,104 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:44,323 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:44,327 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:45,652 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:41:45,657 INFO    MainThread:164074 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 09:41:45,658 INFO    MainThread:164074 [wandb_watch.py:watch():35] Watching
+2020-11-26 09:41:54,128 INFO    MainThread:164074 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 09:42:25,174 INFO    MainThread:164074 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-26 09:42:25,174 INFO    MainThread:164074 [wandb_run.py:_restore():1160] restore
+2020-11-26 09:42:25,177 INFO    MainThread:164074 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "d0d1f5e7429e4e749714d01efdf986e9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 10112
+      total_bytes: 10112
+    }
+  }
+}
+
+2020-11-26 09:42:27,181 INFO    MainThread:164074 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "1cb01d061e044924888c1b09d553f995"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 16276
+      total_bytes: 16276
+    }
+  }
+}
+
+2020-11-26 09:42:28,252 INFO    MainThread:164074 [wandb_run.py:_show_summary():1450] rendering summary
+2020-11-26 09:42:28,253 INFO    MainThread:164074 [wandb_run.py:_show_history():1488] rendering history
+2020-11-26 09:42:28,254 INFO    MainThread:164074 [wandb_run.py:_show_files():1517] logging synced files
+2020-11-26 09:42:28,258 INFO    MainThread:164074 [internal.py:handle_exit():138] Internal process exited

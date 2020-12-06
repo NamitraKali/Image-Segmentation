@@ -1,0 +1,33 @@
+2020-11-19 02:34:02,476 INFO    MainThread:7422 [internal.py:wandb_internal():63] W&B internal server running at pid: 7422
+2020-11-19 02:34:02,477 DEBUG   HandlerThread:7422 [handler.py:handle_request():55] handle_request: check_version
+2020-11-19 02:34:02,477 INFO    WriterThread:7422 [datastore.py:open_for_write():76] open: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/run-2h5emydd.wandb
+2020-11-19 02:34:02,478 DEBUG   SenderThread:7422 [sender.py:send():90] send: header
+2020-11-19 02:34:02,478 DEBUG   SenderThread:7422 [sender.py:send():90] send: request
+2020-11-19 02:34:02,478 DEBUG   SenderThread:7422 [sender.py:send_request():99] send_request: check_version
+2020-11-19 02:34:02,481 DEBUG   Thread-4  :7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2020-11-19 02:34:02,558 DEBUG   Thread-4  :7422 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-11-19 02:34:02,588 DEBUG   SenderThread:7422 [sender.py:send():90] send: run
+2020-11-19 02:34:02,589 DEBUG   SenderThread:7422 [git.py:repo():30] git repository is invalid
+2020-11-19 02:34:02,592 DEBUG   SenderThread:7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-19 02:34:13,806 DEBUG   SenderThread:7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-19 02:34:25,966 DEBUG   SenderThread:7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-19 02:34:32,588 DEBUG   HandlerThread:7422 [handler.py:handle_request():55] handle_request: shutdown
+2020-11-19 02:34:32,588 INFO    HandlerThread:7422 [handler.py:finish():271] shutting down handler
+2020-11-19 02:34:32,591 INFO    WriterThread:7422 [datastore.py:close():257] close: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/run-2h5emydd.wandb
+2020-11-19 02:34:32,776 DEBUG   SenderThread:7422 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-19 02:34:32,780 INFO    SenderThread:7422 [dir_watcher.py:__init__():165] watching files in: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/files
+2020-11-19 02:34:32,780 INFO    SenderThread:7422 [sender.py:_start_run_threads():487] run started: 2h5emydd with start time 1605771242
+2020-11-19 02:34:32,780 INFO    SenderThread:7422 [sender.py:finish():642] shutting down sender
+2020-11-19 02:34:32,780 INFO    SenderThread:7422 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-11-19 02:34:33,780 INFO    SenderThread:7422 [dir_watcher.py:finish():309] scan: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/files
+2020-11-19 02:34:33,780 INFO    SenderThread:7422 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/files/config.yaml config.yaml
+2020-11-19 02:34:33,780 INFO    SenderThread:7422 [file_pusher.py:finish():169] shutting down file pusher
+2020-11-19 02:34:33,781 INFO    SenderThread:7422 [file_pusher.py:join():174] waiting for file pusher
+2020-11-19 02:34:33,786 DEBUG   Thread-10 :7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-19 02:34:37,016 DEBUG   Thread-10 :7422 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-19 02:34:37,020 DEBUG   Thread-10 :7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-19 02:34:37,314 DEBUG   Thread-10 :7422 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/2h5emydd/config.yaml?Expires=1605857615&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=lW%2B8G7zUmW9k43Y%2FaVwiNzeOhpVWtQ9cnyKjVNKPjriR62gh%2F%2BYpWygAokx9Jh2f%2Fi%2B8zI3iu61D1omTk3N3sAHSBDoPpc85Gbwl0z0s%2F4ZJQNebV6HfjFRFkR4eZtwZUFQQlWFFOuacuq4oGUh6SDNs3rN0ZpbItS0Kdq1amDj6mzg2f2T1z3A%2FXqE6SWgMuRS539LYpCsZOBtEXXUhuaDfvUwkiIbb1fL96pGDfDPVC56BND6j%2FWgLQo45PukaeKV9FFWv60h8vvPDYbrUjxbFZtt13IEN7LJnlQ47YI21nM1Zj9vOX7aFGp6tIs%2BTkdX6INDlBbKAeNhoqKuyyQ%3D%3D HTTP/1.1" 200 0
+2020-11-19 02:34:37,315 INFO    Thread-10 :7422 [upload_job.py:push():131] Uploaded file /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201119_023402-2h5emydd/files/config.yaml
+2020-11-19 02:34:37,787 DEBUG   Thread-5  :7422 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-19 02:34:38,178 DEBUG   Thread-5  :7422 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/2h5emydd/file_stream HTTP/1.1" 200 None
+2020-11-19 02:34:38,180 INFO    MainThread:7422 [internal.py:handle_exit():138] Internal process exited

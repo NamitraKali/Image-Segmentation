@@ -1,0 +1,20 @@
+{
+    "os": "Linux-5.8.18-1-MANJARO-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2020-11-23T18:55:11.015248",
+    "startedAt": "2020-11-23T18:55:10.267044",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/namitrak/.local/share/jupyter/runtime/kernel-094f17ea-abb0-4f16-9562-3facfa9a11ee.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "MitPC",
+    "username": "namitrak",
+    "executable": "/home/namitrak/anaconda3/envs/rl_gan/bin/python"
+}

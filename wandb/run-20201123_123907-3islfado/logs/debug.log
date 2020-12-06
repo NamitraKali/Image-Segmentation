@@ -1,0 +1,53 @@
+2020-11-23 12:39:07,100 INFO    MainThread:3922 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-23 12:39:07,100 INFO    MainThread:3922 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-23 12:39:07,100 INFO    MainThread:3922 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-23 12:39:07,100 INFO    MainThread:3922 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f494f03a3d0>
+2020-11-23 12:39:07,101 INFO    MainThread:3922 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_123907-3islfado/logs/debug.log
+2020-11-23 12:39:07,101 INFO    MainThread:3922 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_123907-3islfado/logs/debug-internal.log
+2020-11-23 12:39:07,102 INFO    MainThread:3922 [wandb_run.py:finish():912] finishing run namkali/traffic-segmentation/2lxcthuo
+2020-11-23 12:39:07,102 INFO    MainThread:3922 [wandb_init.py:_jupyter_teardown():234] cleaning up jupyter logic
+2020-11-23 12:39:07,102 INFO    MainThread:3922 [jupyter.py:save_history():208] not saving jupyter history
+2020-11-23 12:39:07,102 INFO    MainThread:3922 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-23 12:39:07,102 INFO    MainThread:3922 [wandb_run.py:_restore():1160] restore
+2020-11-23 12:39:07,105 INFO    MainThread:3922 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "ffd29510295a4a87af7406d98ac3d81d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 621
+      total_bytes: 621
+    }
+  }
+}
+
+2020-11-23 12:39:09,109 INFO    MainThread:3922 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "bacac0dc0ca54f718a99bf04cdc21c39"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 3137
+      total_bytes: 3137
+    }
+  }
+}
+
+2020-11-23 12:39:10,180 INFO    MainThread:3922 [wandb_run.py:_show_files():1517] logging synced files
+2020-11-23 12:39:10,846 INFO    MainThread:3922 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-23 12:39:10,846 INFO    MainThread:3922 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-23 12:39:10,846 INFO    MainThread:3922 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-23 12:39:10,846 INFO    MainThread:3922 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-23 13:26:11,295 INFO    MainThread:3922 [wandb_init.py:_jupyter_setup():255] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f48901dd2b0>
+2020-11-23 13:26:11,302 INFO    MainThread:3922 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-23 13:26:11,303 INFO    MainThread:3922 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-23 13:26:11,303 INFO    MainThread:3922 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-23 13:26:11,303 INFO    MainThread:3922 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f494f03a3d0>
+2020-11-23 13:26:11,303 INFO    MainThread:3922 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_132611-3obdmf4a/logs/debug.log
+2020-11-23 13:26:11,303 INFO    MainThread:3922 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_132611-3obdmf4a/logs/debug-internal.log
+2020-11-23 13:26:11,304 INFO    MainThread:3922 [wandb_run.py:finish():912] finishing run namkali/traffic-segmentation/3islfado

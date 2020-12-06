@@ -1,0 +1,50 @@
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9dafb4f850>
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201126_184441-1lpupdm8/logs/debug.log
+2020-11-26 18:44:41,826 INFO    MainThread:6974 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201126_184441-1lpupdm8/logs/debug-internal.log
+2020-11-26 18:44:42,502 INFO    MainThread:6974 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-26 18:44:42,502 INFO    MainThread:6974 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-26 18:44:42,502 INFO    MainThread:6974 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-26 18:44:42,502 INFO    MainThread:6974 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-26 18:44:45,280 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:44:45,283 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:09,122 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:09,125 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:09,248 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:09,254 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:09,255 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:09,258 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:09,469 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:09,472 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:10,790 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:10,794 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:10,821 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:10,826 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:10,826 INFO    MainThread:6974 [wandb_watch.py:watch():35] Watching
+2020-11-26 18:45:25,819 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:32,526 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:32,527 INFO    MainThread:6974 [wandb_watch.py:watch():35] Watching
+2020-11-26 18:45:32,546 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:35,363 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:35,454 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 18:45:35,897 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 18:45:35,898 INFO    MainThread:6974 [wandb_watch.py:watch():35] Watching
+2020-11-26 21:53:44,436 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 21:53:44,440 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 21:53:44,472 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-26 21:53:44,477 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-26 21:53:45,387 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-27 02:02:54,646 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-27 02:02:54,713 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-27 02:02:56,093 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-27 02:02:56,094 INFO    MainThread:6974 [wandb_watch.py:watch():35] Watching
+2020-11-27 02:03:03,583 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-27 02:03:10,783 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-27 02:03:10,799 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-27 02:03:22,164 INFO    MainThread:6974 [wandb_init.py:_resume_backend():229] resuming backend
+2020-11-27 02:03:22,179 INFO    MainThread:6974 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-27 02:03:25,440 INFO    MainThread:6974 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-27 02:03:25,440 INFO    MainThread:6974 [wandb_run.py:_restore():1160] restore
+2020-11-27 02:03:25,441 INFO    MainThread:6974 [wandb_run.py:_restore():1160] restore

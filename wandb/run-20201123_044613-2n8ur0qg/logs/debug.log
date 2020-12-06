@@ -1,0 +1,44 @@
+2020-11-23 04:46:13,732 INFO    MainThread:4963 [wandb_setup.py:_flush():70] setting env: {}
+2020-11-23 04:46:13,733 INFO    MainThread:4963 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-11-23 04:46:13,733 INFO    MainThread:4963 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-11-23 04:46:13,733 INFO    MainThread:4963 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcb2835f5b0>
+2020-11-23 04:46:13,733 INFO    MainThread:4963 [wandb_init.py:_log_setup():303] Logging user logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_044613-2n8ur0qg/logs/debug.log
+2020-11-23 04:46:13,733 INFO    MainThread:4963 [wandb_init.py:_log_setup():304] Logging internal logs to /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_044613-2n8ur0qg/logs/debug-internal.log
+2020-11-23 04:46:15,268 INFO    MainThread:4963 [wandb_run.py:_console_start():1218] atexit reg
+2020-11-23 04:46:15,268 INFO    MainThread:4963 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-11-23 04:46:15,269 INFO    MainThread:4963 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-11-23 04:46:15,269 INFO    MainThread:4963 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-11-23 04:46:18,585 INFO    MainThread:4963 [wandb_init.py:_pause_backend():224] pausing backend
+2020-11-23 04:51:52,314 INFO    MainThread:4963 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-11-23 04:51:52,315 INFO    MainThread:4963 [wandb_run.py:_restore():1160] restore
+2020-11-23 04:51:52,317 INFO    MainThread:4963 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "2f8d8207651549629f77d7629b0f0578"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 621
+      total_bytes: 621
+    }
+  }
+}
+
+2020-11-23 04:51:54,321 INFO    MainThread:4963 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "177f6dccd73f44959638e357d8f3cc9b"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 2987
+      total_bytes: 2987
+    }
+  }
+}
+
+2020-11-23 04:51:55,390 INFO    MainThread:4963 [wandb_run.py:_show_files():1517] logging synced files
+2020-11-23 04:51:55,392 INFO    MainThread:4963 [internal.py:handle_exit():138] Internal process exited

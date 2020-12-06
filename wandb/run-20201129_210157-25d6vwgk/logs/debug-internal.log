@@ -1,0 +1,1077 @@
+2020-11-29 21:02:02,910 INFO    MainThread:87568 [internal.py:wandb_internal():63] W&B internal server running at pid: 87568
+2020-11-29 21:02:02,912 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: check_version
+2020-11-29 21:02:02,912 INFO    WriterThread:87568 [datastore.py:open_for_write():76] open: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/run-25d6vwgk.wandb
+2020-11-29 21:02:02,913 DEBUG   SenderThread:87568 [sender.py:send():90] send: header
+2020-11-29 21:02:02,913 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:02:02,913 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: check_version
+2020-11-29 21:02:02,915 DEBUG   Thread-4  :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2020-11-29 21:02:03,160 DEBUG   Thread-4  :87568 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-11-29 21:02:03,186 DEBUG   SenderThread:87568 [sender.py:send():90] send: run
+2020-11-29 21:02:03,188 DEBUG   SenderThread:87568 [git.py:repo():30] git repository is invalid
+2020-11-29 21:02:03,193 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:03,395 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:03,398 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: run_start
+2020-11-29 21:02:03,400 INFO    SenderThread:87568 [dir_watcher.py:__init__():165] watching files in: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files
+2020-11-29 21:02:03,400 INFO    SenderThread:87568 [sender.py:_start_run_threads():487] run started: 25d6vwgk with start time 1606701722
+2020-11-29 21:02:03,400 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:03,400 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:03,408 DEBUG   HandlerThread:87568 [git.py:repo():30] git repository is invalid
+2020-11-29 21:02:03,412 DEBUG   SenderThread:87568 [sender.py:send():90] send: files
+2020-11-29 21:02:03,412 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-11-29 21:02:03,416 DEBUG   Thread-11 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:03,417 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:02:03,417 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:02:03,417 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:02:03,420 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:03,509 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:03,521 DEBUG   Thread-11 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:03,525 DEBUG   Thread-11 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-29 21:02:03,807 DEBUG   Thread-11 :87568 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/25d6vwgk/wandb-metadata.json?Expires=1606788057&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AX9XmURMqcakNqsnPpMlI19lqC3du1pgopx2sLYEkBpBmEBl%2BerI%2FbCKdvH39kmYBDdw8DIZowwVUfOVxLCYIr4dD9O68j3%2Bp9iSHR01xgg87erjTevhjlNMOmBOjJoWGIo373SvfzyMlSx6jvIGPzdjAFnd6DIeRyFjHdBEI8FCRD2i7TnbPGKOytMKM7pW%2BiLGgV6iwZATANalYJKu1GcCvu3yvd130s23Dbtf93dznsOmqb6MUEDqKn079fwQeen4hG07GWFZnbICheKVwwNb%2BiEmCePaBrS%2F3AouODmO7HsvVBre5CNIGyqWHYq6WeFIwXD7iLkTLUDbe4t6uw%3D%3D HTTP/1.1" 200 0
+2020-11-29 21:02:03,808 INFO    Thread-11 :87568 [upload_job.py:push():131] Uploaded file /tmp/tmpgl4jk849wandb/2er2ttfb-wandb-metadata.json
+2020-11-29 21:02:04,402 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:04,402 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:04,402 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-metadata.json
+2020-11-29 21:02:04,402 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/requirements.txt
+2020-11-29 21:02:05,513 DEBUG   Thread-5  :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:05,687 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:05,887 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: pause
+2020-11-29 21:02:05,887 INFO    HandlerThread:87568 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-29 21:02:05,967 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:06,400 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:08,098 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:13,074 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: resume
+2020-11-29 21:02:13,074 INFO    HandlerThread:87568 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-29 21:02:13,117 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: pause
+2020-11-29 21:02:13,117 INFO    HandlerThread:87568 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-29 21:02:13,203 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:13,289 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:15,391 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: resume
+2020-11-29 21:02:15,392 INFO    HandlerThread:87568 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-29 21:02:15,392 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: pause
+2020-11-29 21:02:15,392 INFO    HandlerThread:87568 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-29 21:02:15,415 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:15,625 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:16,696 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: resume
+2020-11-29 21:02:16,696 INFO    HandlerThread:87568 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-29 21:02:17,083 DEBUG   SenderThread:87568 [sender.py:send():90] send: files
+2020-11-29 21:02:17,083 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file media/graph/g.r.a.p.h._.7_summary_28860210.graph.json with policy now
+2020-11-29 21:02:17,084 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:17,084 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:17,084 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:17,086 DEBUG   Thread-15 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:17,089 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:17,156 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:17,156 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:17,160 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:17,160 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:17,254 DEBUG   Thread-15 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:17,258 DEBUG   Thread-15 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-29 21:02:17,385 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:17,385 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:17,385 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:17,403 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:17,404 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:17,404 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/media/graph/g.r.a.p.h._.7_summary_28860210.graph.json
+2020-11-29 21:02:17,404 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/media/graph
+2020-11-29 21:02:17,404 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/media
+2020-11-29 21:02:17,522 DEBUG   Thread-15 :87568 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/25d6vwgk/media/graph/g.r.a.p.h._.7_summary_28860210.graph.json?Expires=1606788071&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Fa17rCQMReRpuXLt059y%2FX7fcAtMRSAiXloo6tn5lpGf1%2B4uiDwjhs%2FIhTnHt4%2FhKggEWKeegYDUI51N4euOcvvsCPQFHJ9PoSD3uVSyPoIYhZMB65V9myHfDIZt5kaGL6e2Ea0enYo1%2FKeXdFK%2BT9zSjaOn6XwnUC6m%2FhdavLXjcfAGKALLtFON30IsHKrCZn54NSb%2Fra1V%2BupkXS2X3%2BiVxuR6D9xd9Mya1c7gJ6b1uZDhmK5CS93jYjNNyRNo2VP9GaNsGTRyW6Kupmd3uS1cf6kWQTW2Ci3FGO04juktcymtcUyPJ8%2F2zx6ohM4%2FCP%2BKIalsYaA6VBSIQZXB6w%3D%3D HTTP/1.1" 200 0
+2020-11-29 21:02:17,523 INFO    Thread-15 :87568 [upload_job.py:push():131] Uploaded file /tmp/tmpgl4jk849wandb/3qt0cc70-media/graph/g.r.a.p.h._.7_summary_28860210.graph.json
+2020-11-29 21:02:18,404 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:18,512 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:02:18,512 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:02:18,512 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:02:18,514 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:18,613 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:19,405 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:19,482 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:20,066 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:20,405 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:21,314 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:21,314 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:21,314 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:21,405 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:21,406 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:22,406 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:23,395 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:23,406 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:24,407 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:24,521 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:25,226 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:25,226 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:25,227 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:25,407 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:25,407 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:26,407 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:27,311 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:27,407 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:28,408 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:28,987 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:28,994 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:28,994 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:28,995 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:29,408 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:29,408 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:30,408 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:31,112 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:31,409 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:32,409 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:32,800 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:32,800 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:32,800 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:33,409 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:33,410 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:33,452 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:33,549 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:33,616 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:02:33,616 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:02:33,616 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:02:33,618 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:33,730 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:34,410 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:35,410 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:36,410 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:36,589 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:36,589 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:36,591 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:36,709 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:37,411 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:37,411 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:37,921 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:38,411 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:39,412 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:40,017 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:40,368 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:40,369 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:40,369 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:40,413 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:40,413 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:41,413 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:42,376 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:42,413 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:42,478 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:43,414 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:44,141 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:44,141 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:44,142 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:44,414 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:44,415 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:45,415 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:46,223 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:46,415 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:46,830 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:47,415 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:47,926 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:47,926 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:47,926 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:48,416 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:48,416 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:48,733 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:02:48,733 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:02:48,733 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:02:48,735 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:02:48,826 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:02:49,416 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:50,047 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:50,417 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:51,288 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:51,418 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:51,713 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:51,713 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:51,713 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:52,418 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:52,418 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:53,418 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:53,865 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:54,419 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:55,420 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:55,499 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:55,499 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:55,500 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:55,739 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:02:55,826 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:56,420 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:56,421 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:57,421 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:58,421 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:02:59,282 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:02:59,282 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:02:59,285 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:02:59,369 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:02:59,422 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:02:59,422 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:00,195 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:00,422 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:01,423 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:02,423 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:03,074 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:03,075 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:03,075 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:03,424 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:03,424 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:03,828 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:03:03,828 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:03:03,828 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:03:03,830 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:03:03,931 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:03:04,424 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:04,654 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:05,424 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:06,425 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:06,848 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:06,848 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:06,849 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:07,425 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:07,426 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:08,426 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:09,120 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:09,426 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:10,427 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:10,625 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:10,626 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:10,628 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:10,724 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:03:11,427 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:11,427 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:12,427 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:13,428 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:13,586 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:14,391 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:14,391 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:14,392 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:14,428 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:14,429 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:15,429 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:16,429 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:17,430 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:18,050 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:18,171 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:18,172 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:18,172 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:18,430 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:18,430 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:18,933 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:03:18,933 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:03:18,934 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:03:18,936 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:03:19,235 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:03:19,430 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:20,431 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:21,431 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:21,948 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:21,949 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:21,951 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:22,048 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:03:22,432 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:22,432 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:22,510 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:23,432 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:24,432 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:25,433 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:25,744 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:25,744 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:25,745 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:26,433 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:26,433 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:26,975 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:27,434 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:28,434 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:29,434 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:29,511 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:29,511 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:29,511 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:30,435 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:30,435 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:31,421 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:31,435 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:32,436 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:33,436 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:33,500 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:33,500 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:33,502 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:33,584 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:03:34,237 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:03:34,237 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:03:34,237 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:03:34,240 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:03:34,359 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:03:34,437 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:34,437 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:35,437 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:35,867 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:36,438 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:37,330 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:37,330 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:37,331 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:37,438 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:37,438 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:38,439 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:39,439 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:40,313 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:40,439 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:41,108 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:41,108 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:41,109 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:41,440 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:41,440 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:42,440 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:43,441 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:44,441 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:44,762 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:44,915 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:03:45,113 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:45,113 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:45,114 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:45,441 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:45,442 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:46,442 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:47,442 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:48,443 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:48,976 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:48,976 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:48,977 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:49,214 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:49,361 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:03:49,361 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:03:49,361 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:03:49,364 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:03:49,443 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:49,443 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:49,512 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:03:50,443 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:51,444 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:52,444 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:52,752 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:52,752 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:52,753 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:53,445 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:53,445 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:53,675 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:54,445 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:55,445 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:56,446 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:56,560 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:03:56,560 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:03:56,563 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:03:56,649 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:03:57,446 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:03:57,446 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:58,137 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:03:58,447 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:03:59,447 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:00,448 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:00,535 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:00,535 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:00,536 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:01,448 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:01,448 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:02,448 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:02,602 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:03,449 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:04,310 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:04,310 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:04,310 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:04,449 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:04,449 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:04,515 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:04:04,515 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:04:04,515 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:04:04,517 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:04:04,618 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:04:05,449 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:06,450 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:07,066 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:07,152 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:04:07,450 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:08,103 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:08,103 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:08,104 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:08,451 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:08,451 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:09,451 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:10,451 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:11,452 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:11,533 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:11,888 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:11,889 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:11,889 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:12,452 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:12,452 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:13,452 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:14,453 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:15,454 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:15,785 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:15,785 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:15,786 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:15,985 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:16,454 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:16,454 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:17,454 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:18,455 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:19,455 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:19,581 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:19,581 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:19,583 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:19,620 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:04:19,620 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:04:19,621 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:04:19,623 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:04:19,665 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:04:19,707 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:04:20,437 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:20,455 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:20,456 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:21,456 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:22,456 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:23,364 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:23,364 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:23,365 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:23,457 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:23,457 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:24,457 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:24,899 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:25,458 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:26,458 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:27,143 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:27,144 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:27,144 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:27,459 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:27,459 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:28,459 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:29,366 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:29,459 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:30,459 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:30,920 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:30,920 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:30,923 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:31,039 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:04:31,460 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:31,460 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:32,460 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:33,461 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:33,832 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:34,461 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:34,710 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:04:34,710 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:04:34,710 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:04:34,712 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:04:34,846 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:04:34,848 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:34,848 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:34,848 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:35,461 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:35,462 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:36,462 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:37,462 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:38,299 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:38,463 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:38,619 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:38,619 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:38,620 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:39,463 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:39,463 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:40,464 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:41,464 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:42,388 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:42,388 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:42,391 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:42,465 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:42,465 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:42,525 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:04:42,765 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:43,465 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:44,466 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:45,466 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:46,167 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:46,168 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:46,168 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:46,466 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:46,467 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:47,224 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:47,467 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:48,467 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:49,467 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:49,849 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:04:49,849 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:04:49,849 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:04:49,851 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:04:49,984 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:04:49,985 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:49,985 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:49,986 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:50,468 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:50,468 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:51,468 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:51,690 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:52,469 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:53,469 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:53,719 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:53,720 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:53,722 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:53,813 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:04:54,469 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:54,469 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:55,470 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:56,155 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:04:56,470 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:57,470 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:57,508 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:04:57,509 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:04:57,509 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:04:58,471 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:04:58,471 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:04:59,471 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:00,472 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:00,621 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:01,280 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:01,280 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:01,281 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:01,472 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:01,472 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:02,473 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:03,473 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:04,473 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:04,987 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:05:04,987 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:05:04,987 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:05:04,989 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:05:05,165 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:05:05,166 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:05,167 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:05,168 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:05,169 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:05,272 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:05:05,473 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:05,474 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:06,474 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:07,474 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:08,474 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:08,909 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:08,909 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:08,909 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:09,475 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:09,475 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:09,551 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:10,475 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:11,476 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:12,476 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:12,795 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:12,795 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:12,795 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:13,476 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:13,477 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:14,007 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:14,477 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:15,477 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:16,477 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:16,734 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:16,734 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:16,736 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:16,849 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:05:17,478 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:17,478 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:18,478 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:18,480 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:19,479 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:20,167 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:05:20,168 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:05:20,168 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:05:20,170 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:05:20,279 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:05:20,479 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:20,518 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:20,518 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:20,518 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:21,479 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:21,480 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:22,480 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:22,948 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:23,480 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:24,292 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:24,292 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:24,292 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:24,481 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:24,481 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:25,481 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:26,482 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:27,414 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:27,482 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:27,499 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:05:28,081 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:28,081 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:28,082 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:28,482 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:28,483 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:29,483 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:30,484 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:31,484 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:31,862 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:31,865 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:31,866 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:31,866 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:32,485 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:32,485 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:33,485 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:34,486 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:35,281 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:05:35,281 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:05:35,281 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:05:35,284 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:05:35,393 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:05:35,486 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:35,633 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:35,633 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:35,633 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:36,305 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:36,486 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:36,487 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:37,487 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:38,487 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:39,394 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:39,394 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:39,396 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:39,488 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:39,488 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:39,491 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:05:40,488 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:40,773 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:41,488 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:42,489 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:43,183 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:43,183 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:43,183 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:43,489 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:43,489 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:44,489 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:45,239 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:45,490 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:46,490 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:46,961 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:46,961 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:46,962 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:47,490 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:47,491 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:48,491 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:49,492 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:49,703 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:49,803 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:05:50,395 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:05:50,395 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:05:50,395 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:05:50,397 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:05:50,485 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:05:50,492 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:50,750 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:50,750 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:50,751 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:51,492 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:51,492 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:52,493 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:53,493 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:54,160 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:54,493 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:54,544 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:54,546 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:54,546 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:55,494 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:55,494 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:56,494 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:57,495 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:58,339 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:05:58,340 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:05:58,340 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:05:58,495 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:05:58,495 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:05:58,622 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:05:59,495 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:00,496 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:01,496 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:02,118 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:02,118 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:02,120 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:02,244 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:02,497 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:02,497 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:03,073 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:03,497 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:04,497 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:05,488 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:06:05,488 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:06:05,488 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:06:05,491 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:06:05,497 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:05,598 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:06:06,293 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:06,293 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:06,293 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:06,498 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:06,498 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:07,498 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:07,528 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:08,498 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:09,499 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:10,071 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:10,071 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:10,072 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:10,499 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:10,499 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:11,500 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:11,976 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:12,500 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:13,500 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:13,860 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:13,861 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:13,863 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:13,958 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:14,501 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:14,501 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:15,501 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:16,426 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:16,501 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:17,502 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:17,645 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:17,645 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:17,646 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:18,502 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:18,503 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:19,502 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:20,503 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:20,601 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:06:20,601 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:06:20,601 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:06:20,604 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:06:20,726 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:06:20,893 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:21,437 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:21,437 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:21,437 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:21,503 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:21,503 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:22,504 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:23,504 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:24,504 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:25,224 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:25,224 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:25,226 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:25,311 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:25,361 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:25,505 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:25,505 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:26,505 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:27,505 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:28,506 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:29,025 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:29,026 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:29,026 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:29,506 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:29,506 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:29,826 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:30,506 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:31,507 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:32,507 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:32,816 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:32,816 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:32,816 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:33,507 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:33,508 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:34,288 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:34,508 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:35,508 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:35,728 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:06:35,729 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:06:35,729 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:06:35,730 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:06:35,825 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:06:36,509 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:36,609 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:36,609 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:36,611 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:36,697 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:37,509 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:37,509 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:38,509 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:38,743 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:39,510 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:40,397 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:40,397 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:40,398 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:40,510 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:40,510 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:41,510 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:42,510 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:43,195 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:43,511 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:44,198 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:44,198 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:44,198 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:44,511 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:44,511 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:45,511 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:46,512 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:47,512 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:47,648 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:47,749 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:47,992 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:47,992 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:47,992 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:48,512 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:48,513 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:49,513 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:50,513 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:50,827 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:06:50,828 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:06:50,828 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:06:50,830 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:06:50,917 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:06:51,514 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:51,781 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:51,781 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:51,782 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:52,100 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:52,514 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:52,514 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:53,514 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:54,515 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:55,515 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:55,566 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:55,566 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:55,566 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:56,515 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:56,516 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:56,563 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:06:57,516 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:58,516 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:06:59,360 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:06:59,360 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:06:59,362 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:06:59,450 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:06:59,516 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:06:59,517 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:00,517 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:01,031 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:01,517 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:02,518 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:03,298 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:03,298 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:03,298 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:03,518 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:03,518 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:04,518 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:05,496 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:05,519 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:05,919 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:07:05,919 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:05,919 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:07:05,921 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:06,107 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:06,519 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:07,183 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:07,184 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:07,184 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:07,519 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:07,519 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:08,519 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:09,520 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:09,966 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:10,520 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:11,035 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:11,035 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:11,036 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:11,520 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:11,520 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:12,521 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:13,521 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:14,427 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:14,521 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:15,012 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:15,012 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:15,013 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:15,522 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:15,522 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:16,522 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:17,522 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:18,522 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:18,806 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:18,807 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:18,807 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:18,891 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:19,523 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:19,523 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:20,523 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:21,110 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:07:21,110 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:21,110 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:07:21,113 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:21,246 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:21,523 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:22,524 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:22,626 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:22,626 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:22,627 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:23,360 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:23,524 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:23,524 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:24,524 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:25,524 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:26,413 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:26,413 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:26,414 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:26,525 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:26,525 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:27,525 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:27,826 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:28,525 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:29,526 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:30,226 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:30,227 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:30,229 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:30,392 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 200 None
+2020-11-29 21:07:30,526 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:30,526 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:31,526 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:32,280 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:32,527 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:33,527 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:34,007 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:34,007 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:34,007 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:34,527 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:34,527 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:35,527 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:36,248 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:07:36,248 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:36,248 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:07:36,250 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:36,386 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:36,528 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:36,741 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:37,528 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:37,861 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:37,862 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:37,862 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:38,528 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:38,529 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:39,529 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:40,529 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:41,202 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:41,529 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:41,777 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:41,778 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:41,778 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:42,530 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:42,530 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:43,530 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:44,531 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:45,531 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:45,664 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:45,733 DEBUG   SenderThread:87568 [sender.py:send():90] send: history
+2020-11-29 21:07:45,733 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:45,734 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:45,969 WARNING MainThread:87568 [internal.py:wandb_internal():117] Internal process interrupt: 1
+2020-11-29 21:07:46,096 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: pause
+2020-11-29 21:07:46,096 INFO    HandlerThread:87568 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-29 21:07:46,176 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:46,532 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:46,532 INFO    Thread-8  :87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log
+2020-11-29 21:07:51,389 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: status
+2020-11-29 21:07:51,389 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:51,389 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: status
+2020-11-29 21:07:51,392 DEBUG   SenderThread:87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:51,516 DEBUG   SenderThread:87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:58,601 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: resume
+2020-11-29 21:07:58,601 INFO    HandlerThread:87568 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-29 21:07:58,605 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: poll_exit
+2020-11-29 21:07:58,605 DEBUG   SenderThread:87568 [sender.py:send():90] send: exit
+2020-11-29 21:07:58,605 INFO    SenderThread:87568 [sender.py:send_exit():168] handling exit code: 0
+2020-11-29 21:07:58,605 INFO    SenderThread:87568 [sender.py:send_exit():176] send defer
+2020-11-29 21:07:58,606 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,606 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: poll_exit
+2020-11-29 21:07:58,606 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:58,606 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 0
+2020-11-29 21:07:58,607 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,607 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:58,607 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-11-29 21:07:58,607 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 1
+2020-11-29 21:07:58,607 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:58,607 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 1
+2020-11-29 21:07:58,620 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,620 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:58,620 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-11-29 21:07:58,620 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 2
+2020-11-29 21:07:58,620 DEBUG   SenderThread:87568 [sender.py:send():90] send: stats
+2020-11-29 21:07:58,621 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:58,621 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 2
+2020-11-29 21:07:58,621 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,621 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:58,621 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-11-29 21:07:58,621 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 3
+2020-11-29 21:07:58,622 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:58,622 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 3
+2020-11-29 21:07:58,622 DEBUG   SenderThread:87568 [sender.py:send():90] send: summary
+2020-11-29 21:07:58,622 INFO    SenderThread:87568 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-29 21:07:58,622 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,622 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:58,622 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-11-29 21:07:58,622 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 4
+2020-11-29 21:07:58,623 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:58,623 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 4
+2020-11-29 21:07:58,623 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:58,623 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:58,623 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-11-29 21:07:58,623 INFO    SenderThread:87568 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-11-29 21:07:59,534 INFO    SenderThread:87568 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json
+2020-11-29 21:07:59,535 INFO    SenderThread:87568 [dir_watcher.py:finish():309] scan: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files
+2020-11-29 21:07:59,535 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/output.log output.log
+2020-11-29 21:07:59,535 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/requirements.txt requirements.txt
+2020-11-29 21:07:59,535 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/config.yaml config.yaml
+2020-11-29 21:07:59,535 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-metadata.json wandb-metadata.json
+2020-11-29 21:07:59,539 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/wandb-summary.json wandb-summary.json
+2020-11-29 21:07:59,543 DEBUG   Thread-17 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:59,544 DEBUG   Thread-18 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:59,547 INFO    SenderThread:87568 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/files/media/graph/g.r.a.p.h._.7_summary_28860210.graph.json media/graph/g.r.a.p.h._.7_summary_28860210.graph.json
+2020-11-29 21:07:59,548 DEBUG   Thread-19 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:59,551 DEBUG   Thread-20 :87568 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-29 21:07:59,551 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 5
+2020-11-29 21:07:59,552 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:59,552 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 5
+2020-11-29 21:07:59,552 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:59,552 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:59,552 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-11-29 21:07:59,552 INFO    SenderThread:87568 [file_pusher.py:finish():169] shutting down file pusher
+2020-11-29 21:07:59,552 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 6
+2020-11-29 21:07:59,553 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:59,553 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 6
+2020-11-29 21:07:59,553 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:59,553 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:59,553 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-11-29 21:07:59,652 DEBUG   Thread-5  :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/25d6vwgk/file_stream HTTP/1.1" 404 None
+2020-11-29 21:07:59,654 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 7
+2020-11-29 21:07:59,654 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:59,654 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 7
+2020-11-29 21:07:59,654 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:59,654 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:59,654 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-11-29 21:07:59,654 INFO    SenderThread:87568 [sender.py:send_request_defer():221] send defer: 8
+2020-11-29 21:07:59,655 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: defer
+2020-11-29 21:07:59,655 DEBUG   SenderThread:87568 [sender.py:send():90] send: final
+2020-11-29 21:07:59,655 INFO    HandlerThread:87568 [handler.py:handle_request_defer():69] handle defer: 8
+2020-11-29 21:07:59,655 DEBUG   SenderThread:87568 [sender.py:send():90] send: footer
+2020-11-29 21:07:59,655 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:07:59,655 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: defer
+2020-11-29 21:07:59,655 INFO    SenderThread:87568 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-11-29 21:07:59,680 DEBUG   Thread-19 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:59,687 DEBUG   Thread-20 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:59,701 DEBUG   Thread-18 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:07:59,701 DEBUG   Thread-17 :87568 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-29 21:08:00,609 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: poll_exit
+2020-11-29 21:08:00,609 DEBUG   SenderThread:87568 [sender.py:send():90] send: request
+2020-11-29 21:08:00,609 DEBUG   SenderThread:87568 [sender.py:send_request():99] send_request: poll_exit
+2020-11-29 21:08:00,610 INFO    SenderThread:87568 [file_pusher.py:join():174] waiting for file pusher
+2020-11-29 21:08:00,610 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: get_summary
+2020-11-29 21:08:00,611 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: sampled_history
+2020-11-29 21:08:00,612 DEBUG   HandlerThread:87568 [handler.py:handle_request():55] handle_request: shutdown
+2020-11-29 21:08:00,612 INFO    HandlerThread:87568 [handler.py:finish():271] shutting down handler
+2020-11-29 21:08:00,655 INFO    WriterThread:87568 [datastore.py:close():257] close: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201129_210157-25d6vwgk/run-25d6vwgk.wandb
+2020-11-29 21:08:01,610 INFO    SenderThread:87568 [sender.py:finish():642] shutting down sender
+2020-11-29 21:08:01,610 INFO    SenderThread:87568 [file_pusher.py:finish():169] shutting down file pusher
+2020-11-29 21:08:01,610 INFO    SenderThread:87568 [file_pusher.py:join():174] waiting for file pusher
+2020-11-29 21:08:01,611 INFO    MainThread:87568 [internal.py:handle_exit():138] Internal process exited

@@ -1,0 +1,269 @@
+2020-11-23 17:05:04,514 INFO    MainThread:14683 [internal.py:wandb_internal():63] W&B internal server running at pid: 14683
+2020-11-23 17:05:04,515 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: check_version
+2020-11-23 17:05:04,515 INFO    WriterThread:14683 [datastore.py:open_for_write():76] open: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/run-1u8gdxsh.wandb
+2020-11-23 17:05:04,517 DEBUG   SenderThread:14683 [sender.py:send():90] send: header
+2020-11-23 17:05:04,517 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:05:04,517 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: check_version
+2020-11-23 17:05:04,519 DEBUG   Thread-4  :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2020-11-23 17:05:04,614 DEBUG   Thread-4  :14683 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-11-23 17:05:04,634 DEBUG   SenderThread:14683 [sender.py:send():90] send: run
+2020-11-23 17:05:04,635 DEBUG   SenderThread:14683 [git.py:repo():30] git repository is invalid
+2020-11-23 17:05:04,640 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:04,760 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:05:04,763 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: run_start
+2020-11-23 17:05:04,765 INFO    SenderThread:14683 [dir_watcher.py:__init__():165] watching files in: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files
+2020-11-23 17:05:04,765 INFO    SenderThread:14683 [sender.py:_start_run_threads():487] run started: 1u8gdxsh with start time 1606169104
+2020-11-23 17:05:04,765 DEBUG   SenderThread:14683 [sender.py:send():90] send: summary
+2020-11-23 17:05:04,765 INFO    SenderThread:14683 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-23 17:05:04,772 DEBUG   HandlerThread:14683 [git.py:repo():30] git repository is invalid
+2020-11-23 17:05:04,775 DEBUG   SenderThread:14683 [sender.py:send():90] send: files
+2020-11-23 17:05:04,775 INFO    SenderThread:14683 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-11-23 17:05:04,779 DEBUG   Thread-11 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:04,780 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:05:04,780 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:05:04,780 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:05:04,783 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:04,915 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:05:04,922 DEBUG   Thread-11 :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:05:04,926 DEBUG   Thread-11 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-23 17:05:05,222 DEBUG   Thread-11 :14683 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/1u8gdxsh/wandb-metadata.json?Expires=1606255441&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YqKOkt1%2F8j4soRPqeIn8fLDLIT%2BK416v%2F8p%2Fp5kbvk6eAgCF1kLVSOLrUl6a8DByDOr1yeyPPNl20s6Wrvhy%2FmBffxW7AO1s6YsX5tp8K5qJLR6SXvLGFD78Jcon1o5Mx8Q07hvlx7r%2F2saLcijknfpIxIGkq%2F4OttC3auhmSphwvijf%2F9o1d0O7Yocepm9Xz2Y0%2FspZuBOsHrbQGB0I%2B%2BXV8%2Fq0gKeWt4bpnWXMGyUM5i6Og%2B%2FAYiPqoQDpHN2X5vQDemyQav9DLeG0%2B%2BnRO1OktSDgwC1CIUvp065OBDXbNtL2WtlNfcJMoeYJg%2Fn5CHlZhV%2BrkorfC9PQwAITGg%3D%3D HTTP/1.1" 200 0
+2020-11-23 17:05:05,223 INFO    Thread-11 :14683 [upload_job.py:push():131] Uploaded file /tmp/tmpdqlso0h4wandb/3gmpmdye-wandb-metadata.json
+2020-11-23 17:05:05,766 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-metadata.json
+2020-11-23 17:05:05,766 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/requirements.txt
+2020-11-23 17:05:05,767 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-summary.json
+2020-11-23 17:05:05,767 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_created():213] file/dir created: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:06,919 DEBUG   Thread-5  :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:07,044 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:07,232 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:07,233 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:07,336 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:07,336 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:07,336 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:07,766 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:09,468 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:10,702 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:13,763 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:15,165 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:17,249 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:19,621 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:19,743 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:19,918 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:05:19,918 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:05:19,918 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:05:19,920 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:20,006 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:05:24,079 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:24,255 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:28,389 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:28,389 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:28,425 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:28,425 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:28,426 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:28,519 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:28,519 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:28,542 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:28,556 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:28,556 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:28,557 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:28,557 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:28,575 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:28,575 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:28,575 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:28,575 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:28,750 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:28,750 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:28,774 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:28,797 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:28,797 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:28,797 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:29,033 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:29,033 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:29,117 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:29,118 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:29,118 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:29,261 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:29,261 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:29,346 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:29,346 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:29,346 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:29,775 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:30,618 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:30,618 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:30,694 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: resume
+2020-11-23 17:05:30,694 INFO    HandlerThread:14683 [handler.py:handle_request_resume():221] starting system metrics thread
+2020-11-23 17:05:30,697 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:30,775 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:30,926 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:31,775 INFO    Thread-8  :14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:05:31,816 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: pause
+2020-11-23 17:05:31,816 INFO    HandlerThread:14683 [handler.py:handle_request_pause():226] stopping system metrics thread
+2020-11-23 17:05:31,824 DEBUG   SenderThread:14683 [sender.py:send():90] send: stats
+2020-11-23 17:05:33,904 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:05:35,010 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:05:35,010 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:05:35,010 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:05:35,013 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:35,133 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:05:50,135 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:05:50,135 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:05:50,136 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:05:50,138 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:05:50,267 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:06:03,966 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:06:05,269 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:06:05,269 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:06:05,269 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:06:05,271 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:06:05,375 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:06:20,378 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:06:20,378 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:06:20,378 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:06:20,380 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:06:20,475 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:06:35,477 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:06:35,478 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:06:35,478 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:06:35,480 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:06:35,575 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:06:36,033 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:06:50,577 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:06:50,577 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:06:50,577 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:06:50,580 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:06:50,656 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:07:05,659 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:07:05,659 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:07:05,659 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:07:05,661 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:07:05,760 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:07:06,102 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:07:20,762 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:07:20,763 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:07:20,763 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:07:20,765 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:07:20,848 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:07:35,850 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:07:35,851 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:07:35,851 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:07:35,853 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:07:35,937 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:07:36,175 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:07:50,939 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:07:50,939 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:07:50,939 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:07:50,942 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:07:51,192 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:07:53,868 WARNING MainThread:14683 [internal.py:wandb_internal():117] Internal process interrupt: 1
+2020-11-23 17:08:06,194 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: status
+2020-11-23 17:08:06,195 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:06,195 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: status
+2020-11-23 17:08:06,197 DEBUG   SenderThread:14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:08:06,241 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:08:06,313 DEBUG   SenderThread:14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:08:10,052 DEBUG   SenderThread:14683 [sender.py:send():90] send: exit
+2020-11-23 17:08:10,052 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: poll_exit
+2020-11-23 17:08:10,052 INFO    SenderThread:14683 [sender.py:send_exit():168] handling exit code: 0
+2020-11-23 17:08:10,053 INFO    SenderThread:14683 [sender.py:send_exit():176] send defer
+2020-11-23 17:08:10,053 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,053 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: poll_exit
+2020-11-23 17:08:10,053 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,053 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 0
+2020-11-23 17:08:10,053 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,053 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,053 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-11-23 17:08:10,053 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 1
+2020-11-23 17:08:10,054 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,054 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 1
+2020-11-23 17:08:10,054 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,054 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,054 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-11-23 17:08:10,054 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 2
+2020-11-23 17:08:10,054 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,054 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 2
+2020-11-23 17:08:10,054 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,054 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,055 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-11-23 17:08:10,055 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 3
+2020-11-23 17:08:10,055 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,055 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 3
+2020-11-23 17:08:10,055 DEBUG   SenderThread:14683 [sender.py:send():90] send: summary
+2020-11-23 17:08:10,057 INFO    SenderThread:14683 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-11-23 17:08:10,057 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,057 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,057 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-11-23 17:08:10,057 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 4
+2020-11-23 17:08:10,057 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,057 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 4
+2020-11-23 17:08:10,057 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,057 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,057 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-11-23 17:08:10,057 INFO    SenderThread:14683 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-11-23 17:08:10,117 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:08:10,806 INFO    SenderThread:14683 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-summary.json
+2020-11-23 17:08:10,806 INFO    SenderThread:14683 [dir_watcher.py:finish():309] scan: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log output.log
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/requirements.txt requirements.txt
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/config.yaml config.yaml
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-metadata.json wandb-metadata.json
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [dir_watcher.py:finish():315] scan save: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-summary.json wandb-summary.json
+2020-11-23 17:08:10,807 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 5
+2020-11-23 17:08:10,813 DEBUG   Thread-21 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:08:10,813 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,813 DEBUG   Thread-20 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:08:10,814 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 5
+2020-11-23 17:08:10,817 DEBUG   Thread-22 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:08:10,817 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,818 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,821 DEBUG   Thread-23 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-11-23 17:08:10,821 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-11-23 17:08:10,821 INFO    SenderThread:14683 [file_pusher.py:finish():169] shutting down file pusher
+2020-11-23 17:08:10,821 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 6
+2020-11-23 17:08:10,822 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,822 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 6
+2020-11-23 17:08:10,822 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,822 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,822 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-11-23 17:08:10,879 DEBUG   Thread-5  :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/namkali/traffic-segmentation/1u8gdxsh/file_stream HTTP/1.1" 200 None
+2020-11-23 17:08:10,880 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 7
+2020-11-23 17:08:10,880 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,880 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 7
+2020-11-23 17:08:10,880 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,881 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,881 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-11-23 17:08:10,881 INFO    SenderThread:14683 [sender.py:send_request_defer():221] send defer: 8
+2020-11-23 17:08:10,881 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: defer
+2020-11-23 17:08:10,881 DEBUG   SenderThread:14683 [sender.py:send():90] send: final
+2020-11-23 17:08:10,881 INFO    HandlerThread:14683 [handler.py:handle_request_defer():69] handle defer: 8
+2020-11-23 17:08:10,881 DEBUG   SenderThread:14683 [sender.py:send():90] send: footer
+2020-11-23 17:08:10,881 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:10,881 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: defer
+2020-11-23 17:08:10,881 INFO    SenderThread:14683 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-11-23 17:08:10,912 DEBUG   Thread-21 :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:08:10,915 DEBUG   Thread-21 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-23 17:08:10,918 DEBUG   Thread-23 :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:08:10,921 DEBUG   Thread-23 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-23 17:08:10,922 DEBUG   Thread-20 :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:08:10,926 DEBUG   Thread-20 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-23 17:08:10,926 DEBUG   Thread-22 :14683 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-11-23 17:08:10,930 DEBUG   Thread-22 :14683 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-11-23 17:08:11,189 DEBUG   Thread-23 :14683 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/1u8gdxsh/wandb-summary.json?Expires=1606255627&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=q8nqPXxvzo9WWTCS%2Ftiyo1ue%2FmfTzd1DO6vBoOFBLBVM%2Bd%2FJIUZT4mc%2FEMieq0wLySHW2TjvlPHZnDPntDVMuCHtdl4kuzBjzAHBJLM9nriROHDtkzgzpqTOcZQ7LRUSYrO2i%2B7UmpUIZL83rspFUKqTIs%2Fvxeb6yHtd03j50hF%2FA50nkGdLrRoW2bXEcF4dwOHJ6940Qq1GOXe8ULjS1z54heAhEhCBYHHg1WlT6FR71W5XB0UjEJ9YFxbyU7zpHUXxiVrMqQzpPVg3De2mnzlVrVB3jW0xiv5OZtihp%2BJY7KucRcDSC1VN2ek9G0PbymGvT4AudtB7vC53PzT2dQ%3D%3D HTTP/1.1" 200 0
+2020-11-23 17:08:11,190 INFO    Thread-23 :14683 [upload_job.py:push():131] Uploaded file /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/wandb-summary.json
+2020-11-23 17:08:11,205 DEBUG   Thread-20 :14683 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/1u8gdxsh/output.log?Expires=1606255627&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=5%2B%2Ba0gMKDEdTNVNJlAAwt4zj%2FjFJ6gv%2BapX2BquzjnbzeOHLproEAO7MjKk3on90eKVZVlmIVvw0rwTm%2FphthpFmTIsiFgVhMU4R9oTGPcu5kB%2FjjlPHAsv%2F7Qq2yqtIUG8BRM3x%2Bgi%2B6ygrqSC9WL1b5gKA8dV60%2FlJn8XtI91brzkkCNBcIguCzOtIk2NQh2BVpU3AGeERA3eCBiQ5LvU29LokVDLoOsD47X3Ai1ReWVHJED2gqX%2BaE8SCFVdEmLUnt2RShK4cy%2F8nGquUkZ1Sh%2BKnfU2Lax2zqJ5M1nsZ2ME3%2FPRRwlSLsDXvtaeFvdXjtmZmAUKOKvHJPMD6sQ%3D%3D HTTP/1.1" 200 0
+2020-11-23 17:08:11,206 INFO    Thread-20 :14683 [upload_job.py:push():131] Uploaded file /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/output.log
+2020-11-23 17:08:11,215 DEBUG   Thread-22 :14683 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/1u8gdxsh/config.yaml?Expires=1606255627&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=EaadgaX9bWuYzeM7VyVF4H0PtqIf3KFLudYmUtzui%2BGmXj7DBCOpc6%2FICi5LP6zMnwD3thjnQj6XrJKOoTIJ7vf1GK0fLKPXo5ZRqz6MIdVArbD%2Fjvxw501tB4%2FpnJ%2BzGAwfvnwevU7Q1IULO0CaUt7oGH4u4sOcjCr1SSVGS67ntkCKJCPLrPiOW18NjqsEJAVdKH2ETFMKSJ9ThgEboR%2B74VPnIcErMjXst5FrFVo7wZDwtJ8qalLQNoR84Ye0X%2Fmc1kDi%2BcJNkDP2z186c%2B9kQhicR40DaZiV4nt4tRXFX1yhmO4v87gS10aAuk1mU0R5tyeXWU9BWhI1KqFnbg%3D%3D HTTP/1.1" 200 0
+2020-11-23 17:08:11,216 INFO    Thread-22 :14683 [upload_job.py:push():131] Uploaded file /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/config.yaml
+2020-11-23 17:08:11,232 DEBUG   Thread-21 :14683 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/namkali/traffic-segmentation/1u8gdxsh/requirements.txt?Expires=1606255627&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=QWo6xNY3BhM2jbMQpQdC42zIVCL6waLrhDspmfqOaDtWHmmxgjK2SMy5GBMvVhQYwR3C9OQ13WJw%2BFZrchgUFBVeZhOQ0z%2F2CHb00oFeoMPeOqLpH99erOZV1Afq42x9dFR%2F6PefgdzGzSHuqc%2Bd1LX27s%2BY5wmukjeas9JCo5wiPTgKVeOjfEnI%2FLtVk4QScVHlEFk2ud3p5nuLFo92sAwK1utxapIq4qNBr6%2BE%2FENSAMRH%2FJ7CaNqegaQwN8udArVXbSv8hLT%2BSJe8Qb1BLa270ZQLMgjDetr6mCrGr%2BnIdiJsUDhf9SyTYOe4DqDKjx114coq7xDq54AdY75TCA%3D%3D HTTP/1.1" 200 0
+2020-11-23 17:08:11,233 INFO    Thread-21 :14683 [upload_job.py:push():131] Uploaded file /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/files/requirements.txt
+2020-11-23 17:08:12,056 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: poll_exit
+2020-11-23 17:08:12,056 DEBUG   SenderThread:14683 [sender.py:send():90] send: request
+2020-11-23 17:08:12,056 DEBUG   SenderThread:14683 [sender.py:send_request():99] send_request: poll_exit
+2020-11-23 17:08:12,057 INFO    SenderThread:14683 [file_pusher.py:join():174] waiting for file pusher
+2020-11-23 17:08:12,057 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: get_summary
+2020-11-23 17:08:12,058 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: sampled_history
+2020-11-23 17:08:12,059 DEBUG   HandlerThread:14683 [handler.py:handle_request():55] handle_request: shutdown
+2020-11-23 17:08:12,059 INFO    HandlerThread:14683 [handler.py:finish():271] shutting down handler
+2020-11-23 17:08:12,881 INFO    WriterThread:14683 [datastore.py:close():257] close: /home/namitrak/Documents/Machine Learning/Image segmentation/wandb/run-20201123_170504-1u8gdxsh/run-1u8gdxsh.wandb
+2020-11-23 17:08:13,057 INFO    SenderThread:14683 [sender.py:finish():642] shutting down sender
+2020-11-23 17:08:13,057 INFO    SenderThread:14683 [file_pusher.py:finish():169] shutting down file pusher
+2020-11-23 17:08:13,057 INFO    SenderThread:14683 [file_pusher.py:join():174] waiting for file pusher
+2020-11-23 17:08:13,057 INFO    MainThread:14683 [internal.py:handle_exit():138] Internal process exited
